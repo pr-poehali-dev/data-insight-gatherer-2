@@ -2,9 +2,9 @@ import { useRef } from "react"
 import { motion, useScroll, useTransform } from "framer-motion"
 
 const showcaseImages = [
-  "https://cdn.poehali.dev/projects/d2e21e40-9fac-4fba-ac2b-d72691debe41/files/c5b8cd67-acec-4c11-9f6a-6731523b25e4.jpg",
-  "https://cdn.poehali.dev/projects/d2e21e40-9fac-4fba-ac2b-d72691debe41/files/11b4309e-a374-4230-bbc9-6eb1372a827f.jpg",
-  "https://cdn.poehali.dev/projects/d2e21e40-9fac-4fba-ac2b-d72691debe41/files/ca96fc1e-db99-4b2c-8a18-842858989014.jpg",
+  "https://cdn.poehali.dev/projects/d2e21e40-9fac-4fba-ac2b-d72691debe41/bucket/39c70ed9-e738-454b-bb36-a53ba42d56a8.jpg",
+  "https://cdn.poehali.dev/projects/d2e21e40-9fac-4fba-ac2b-d72691debe41/bucket/11678ece-1eec-4cec-ab64-fef24d870115.jpg",
+  "https://cdn.poehali.dev/projects/d2e21e40-9fac-4fba-ac2b-d72691debe41/bucket/ec9c56a3-ae84-4e7a-a76b-fef8ccd564c6.jpg",
 ]
 
 export function ShowcaseSection() {

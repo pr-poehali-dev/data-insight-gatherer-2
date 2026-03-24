@@ -7,22 +7,22 @@ const articles = [
   {
     title: "Как выбрать первую картину для дома",
     category: "Советы коллекционера",
-    image: "https://cdn.poehali.dev/projects/d2e21e40-9fac-4fba-ac2b-d72691debe41/files/11b4309e-a374-4230-bbc9-6eb1372a827f.jpg",
+    image: "https://cdn.poehali.dev/projects/d2e21e40-9fac-4fba-ac2b-d72691debe41/bucket/d64937ac-d448-4c12-85d7-a9b278d1373f.jpg",
   },
   {
     title: "Абстракция vs. фигуративная живопись: что выбрать",
     category: "Искусство",
-    image: "https://cdn.poehali.dev/projects/d2e21e40-9fac-4fba-ac2b-d72691debe41/files/c5b8cd67-acec-4c11-9f6a-6731523b25e4.jpg",
+    image: "https://cdn.poehali.dev/projects/d2e21e40-9fac-4fba-ac2b-d72691debe41/bucket/8c6b87e7-bb2d-411c-9c87-f03c66e7094d.png",
   },
   {
     title: "Как инвестировать в современное искусство",
     category: "Инвестиции",
-    image: "https://cdn.poehali.dev/projects/d2e21e40-9fac-4fba-ac2b-d72691debe41/files/f4974002-d6af-4713-9cba-f0e815c01624.jpg",
+    image: "https://cdn.poehali.dev/projects/d2e21e40-9fac-4fba-ac2b-d72691debe41/bucket/39c70ed9-e738-454b-bb36-a53ba42d56a8.jpg",
   },
   {
     title: "Новые имена: художники МАХ на подъёме",
     category: "Художники",
-    image: "https://cdn.poehali.dev/projects/d2e21e40-9fac-4fba-ac2b-d72691debe41/files/ca96fc1e-db99-4b2c-8a18-842858989014.jpg",
+    image: "https://cdn.poehali.dev/projects/d2e21e40-9fac-4fba-ac2b-d72691debe41/bucket/ec9c56a3-ae84-4e7a-a76b-fef8ccd564c6.jpg",
   },
 ]
 
