@@ -83,6 +83,23 @@ export function HeroSection() {
       </motion.div>
 
       <motion.div
+        className="absolute bottom-24 left-1/2 -translate-x-1/2 z-20"
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 1.2 }}
+      >
+        <a
+          href="https://shortmax.ru/galeri-art"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block bg-foreground text-background px-8 py-4 rounded-full font-medium text-sm tracking-wide hover:bg-foreground/80 transition-colors"
+          data-clickable
+        >
+          Перейти в галерею МАХ
+        </a>
+      </motion.div>
+
+      <motion.div
         className="absolute bottom-8 left-1/2 -translate-x-1/2"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
