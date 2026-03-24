@@ -52,6 +52,15 @@ export function FooterSection() {
 
           {/* Email signup */}
           <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
+            <a
+              href="https://shortmax.ru/galeri-art"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-foreground text-background px-8 py-4 rounded-full font-medium text-sm tracking-wide hover:bg-foreground/80 transition-colors mb-6"
+              data-clickable
+            >
+              Перейти в галерею МАХ
+            </a>
             <p className="text-muted-foreground text-sm mb-4">Получайте уведомления о новых поступлениях и выставках.</p>
             <form onSubmit={(e) => e.preventDefault()} className="flex gap-2">
               <input
