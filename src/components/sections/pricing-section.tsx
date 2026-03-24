@@ -3,18 +3,18 @@ import { Check } from "lucide-react"
 
 const plans = [
   {
-    name: "Старт",
-    price: "1 200",
-    period: " руб/мес",
-    description: "Для личного портфолио",
-    features: ["5 страниц", "Свой домен", "Базовая аналитика", "Поддержка по email"],
+    name: "Стандарт",
+    price: "от 50 000",
+    period: " руб",
+    description: "Живопись и графика",
+    features: ["Оригинальные работы", "Сертификат подлинности", "Упаковка и доставка", "Консультация куратора"],
   },
   {
-    name: "Про",
-    price: "2 900",
-    period: " руб/мес",
-    description: "Для растущих авторов",
-    features: ["Безлимит страниц", "Приоритет поддержки", "Расширенная аналитика", "Свой брендинг", "Работа в команде"],
+    name: "Коллекционный",
+    price: "от 150 000",
+    period: " руб",
+    description: "Редкие и инвестиционные работы",
+    features: ["Работы признанных авторов", "Экспертная оценка", "Страхование при доставке", "Персональный менеджер", "Инвестиционный паспорт"],
     popular: true,
   },
 ]
@@ -29,8 +29,8 @@ export function PricingSection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-3xl md:text-5xl font-serif text-foreground">Простые и понятные цены</h2>
-          <p className="text-muted-foreground mt-4 max-w-md mx-auto">Начните бесплатно, платите когда готовы.</p>
+          <h2 className="text-3xl md:text-5xl font-serif text-foreground">Найдите свою картину</h2>
+          <p className="text-muted-foreground mt-4 max-w-md mx-auto">Каждая работа уникальна. Свяжитесь с нами для подбора.</p>
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-3xl mx-auto">
@@ -46,7 +46,7 @@ export function PricingSection() {
             >
               {plan.popular && (
                 <span className="absolute -top-3 left-1/2 -translate-x-1/2 bg-lime text-foreground text-xs font-medium px-3 py-1 rounded-full">
-                  Популярный
+                  Топ продаж
                 </span>
               )}
 
@@ -75,7 +75,7 @@ export function PricingSection() {
                     : "bg-secondary text-foreground hover:bg-accent/30"
                 }`}
               >
-                Начать
+                Узнать подробнее
               </button>
             </motion.div>
           ))}
