@@ -80,9 +80,7 @@ export function HeroSection() {
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-serif text-center text-foreground mix-blend-difference">
           Искусство, <em className="italic">которое живёт</em>.
         </h1>
-        <p className="mt-6 text-base md:text-lg text-center text-foreground/70 mix-blend-difference max-w-md mx-auto">
-          Лучшие художники. Большой выбор живописи. Картины в наличии и на заказ.
-        </p>
+
       </motion.div>
 
       <motion.div
